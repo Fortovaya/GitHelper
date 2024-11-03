@@ -1,12 +1,12 @@
 Изучаем работу Git
 
-echo "GitHelper" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Fortovaya/GitHelper.git
-git push -u origin main
+> echo "GitHelper" >> README.md
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git branch -M main
+> git remote add origin git@github.com:Fortovaya/GitHelper.git
+> git push -u origin main
 
 Основные команды по работе с Git через Terminal:
 
