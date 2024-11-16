@@ -8,6 +8,13 @@
 6.  git remote add origin git@github.com:Fortovaya/GitHelper.git
 7.  git push -u origin main
 
+## Ветвление:
+
+1. git branch - проверить какие ветки существуют и на какой находишься в данный момент
+2. git branch nameBranch - создать новую ветку, где nameBranch это имя создаваемой ветки
+3. git checkout -b nameBranch - создать и сразу перейти на новую ветку, где nameBranch это имя создаваемой ветки
+4. git checkout nameBranch - перейти на ветку, где nameBranch это имя ветки на которую необходимо перейти
+
 
 ## Какую команду использовать?
 
@@ -39,8 +46,8 @@
 
 ## Отправляем изменения в удалённый репозиторий
 
-> git checkout main               // Переключаемся на ветку main
-> git pull origin main            // Обновляем ветку main
-> git merge sprint_03             // Объединяем sprint_03 в main
-> если есть конфликты, разрешаем их
-> git push origin main            // Отправляем изменения в удалённый репозиторий
+1. git checkout main               // Переключаемся на ветку main
+2. git pull origin main            // Обновляем ветку main
+3. git merge sprint_03             // Объединяем sprint_03 в main
+3. если есть конфликты, разрешаем их
+4. git push origin main            // Отправляем изменения в удалённый репозиторий
